@@ -1,6 +1,6 @@
-*{
+body{
     margin:0;
-    padding:0;
+    padding:0; 
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -9,4 +9,27 @@ h1{
 }
 h2{
     font-size:40px;
+}
+span{
+    color:rgb(0, 60, 255);
+}
+.makeFlex{
+    display:flex;
+}
+.width50{
+    width:50%;
+}
+.landingImage{
+    margin: 10% 5%;
+}
+.landingText{
+    margin: 10% 5%;
+}
+.HireBtn{
+    display: inline-block;
+    text-decoration:none;
+    margin-top: 10px;
+    color:rgb(255, 255, 255);    
+    padding:10px 20px; 
+    background-image: linear-gradient(rgb(0, 60, 255),rgb(119, 0, 255));
 }

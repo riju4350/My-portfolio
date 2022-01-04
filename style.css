@@ -9,24 +9,49 @@ h1{
     font-size:50px;
 }
 h2{
-    font-size:40px;
+    font-size:35px;
 }
 span{
     color:rgb(0, 60, 255);
 }
 .makeFlex{
     display:flex;
-    margin:5% 5%;
+    margin:0 5% 10% 5%;
 }
 .width50{
     width:50%;
 }
  .landingImage{
     padding-left: 15%;
+    
 }
 /* .landingText{
     margin: 10% 5%;
 }  */
+    
+.boyImage{
+    
+}
+.backImage{
+    position: absolute;
+    right:5%;
+    z-index: -1;
+    width: 35%
+}
+.sideImage{
+    position: absolute;
+    left:-15%;
+    top:-15%;
+    z-index: -1;
+    width:30%
+}
+
+.dreamImage{
+    position: absolute;
+    left:5%;
+    z-index: -1;
+    width: 35%
+}
 .HireBtn{
     display: inline-block;
     text-decoration:none;
@@ -36,3 +61,9 @@ span{
     background-image: linear-gradient(rgb(0, 60, 255),rgb(119, 0, 255));
 }
 /* landing page end */
+.Experience-items{
+    box-shadow: 10px 10px 40px gray;
+    width:40%;
+    margin: 0 5% 0 5%;
+    padding:25px;
+}

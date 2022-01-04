@@ -1,3 +1,4 @@
+/* landing page start */
 body{
     margin:0;
     padding:0; 
@@ -15,16 +16,17 @@ span{
 }
 .makeFlex{
     display:flex;
+    margin:5% 5%;
 }
 .width50{
     width:50%;
 }
-.landingImage{
-    margin: 10% 5%;
+ .landingImage{
+    padding-left: 15%;
 }
-.landingText{
+/* .landingText{
     margin: 10% 5%;
-}
+}  */
 .HireBtn{
     display: inline-block;
     text-decoration:none;
@@ -33,3 +35,4 @@ span{
     padding:10px 20px; 
     background-image: linear-gradient(rgb(0, 60, 255),rgb(119, 0, 255));
 }
+/* landing page end */

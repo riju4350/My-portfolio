@@ -28,10 +28,6 @@ span{
 /* .landingText{
     margin: 10% 5%;
 }  */
-    
-.boyImage{
-    
-}
 .backImage{
     position: absolute;
     right:5%;
@@ -66,4 +62,19 @@ span{
     width:40%;
     margin: 0 5% 0 5%;
     padding:25px;
+    border-radius: 10px;
+}
+#exp-border-1{
+    border-left:5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1;
+}
+#exp-border-2{
+    border-left:5px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice:1;  
+}
+footer{
+    text-align: center;
+    margin-bottom:10px;
 }
